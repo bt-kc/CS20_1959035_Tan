@@ -1,0 +1,191 @@
+body{
+  background-color: #F6F6F6;
+}
+h1, h2, h3, label, select, option {
+  font-family: 'Kiwi Maru', serif;
+}
+
+h2{
+  font-size: small;
+}
+
+h3{
+  font-size: smaller;
+}
+
+li, p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-small;
+}
+
+label, select, option {
+  font-size: xx-small;
+  border: none;
+  ;
+}
+
+img{
+  width: 100%;
+}
+
+.user_list{
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index:10;
+}
+
+.user_list button, #sale button, #brands button{
+  color:white;
+  background-color: #01BBD4;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  margin: 5px 5px 0 0;
+}
+
+#nav_1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#nav_2{
+  align-items: baseline;
+}
+
+#nav_2 i{
+  margin: 0 4px 0 4px;
+  color: #01BBD4;
+}
+
+#banner{
+  color: white;
+  background-color: #01BBD4;
+}
+
+#banner button{
+  color: #01BBD4;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sale{
+  padding: 0 30vh 0 30vh;
+}
+
+#sale #product_list{
+  position: relative;
+}
+
+#sale #product_list #before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 100;
+}
+
+#sale #product_list #next{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 100;
+}
+
+#sale .card{
+  border: none;
+  height: 60vh;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+#sale .card img{
+  height: 30vh;
+  object-fit: contain;
+}
+
+#promises > div{
+  padding: 10px;
+}
+
+#promises .flex-column {  
+  color: white;
+  background-color: #01BBD4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#promises .flex-column i{  
+  margin-bottom: 10px;
+}
+
+#postsNbrands{
+  padding: 0 30vh 0 30vh;
+}
+
+#postsNbrands img{
+  max-width: 10vw!important;
+  object-fit: cover;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#posts{
+  margin-bottom: 5vh;
+}
+
+#brands{  
+  position: relative;
+}
+
+#brands #br_before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 100;
+}
+
+#brands #br_next{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 100;
+}
+
+#brands img{
+  height: 10vh;
+  background-color: white;
+}
+
+footer{
+  margin-top: 5vh;
+  padding: 5vh 30vh 0 30vh;
+  background-color: white;
+}
+
+footer h3{
+  color: #01BBD4;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer button{
+  background-color: #01BBD4;
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 800px) {
+  #postsNbrands{
+    padding: 0 5vw 0 5vw!important;
+  }
+
+  footer{
+    padding: 0 5vw 0 5vw;
+  }
+}
